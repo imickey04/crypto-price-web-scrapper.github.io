@@ -1,0 +1,33 @@
+{
+  "name": "crypto-price-web-scrapper",
+  "version": "1.0.0",
+  "description": "This is a web scrapper for daily Crypto Currencies Price analysis",
+  "main": "index.js",
+  "scripts": {
+    "start" : "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imickey04/crypto-price-web-scrapper.github.io.git"
+  },
+  "keywords": [
+    "Crypto",
+    "Price",
+    "Web",
+    "Scrapper"
+  ],
+  "author": "Mayank Chanabhatti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imickey04/crypto-price-web-scrapper.github.io/issues"
+  },
+  "homepage": "https://github.com/imickey04/crypto-price-web-scrapper.github.io#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.11",
+    "express": "^4.18.1",
+    "nodemin": "^1.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
